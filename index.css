@@ -154,7 +154,8 @@ body {
   }
    .content{
     text-align: start !important;
-    left: 25px;
+    margin-left: 25px;
+    top: -118px;
   }
   #info{
     font-size: 27px !important;
