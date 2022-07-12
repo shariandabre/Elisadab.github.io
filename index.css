@@ -139,6 +139,11 @@ body {
   align-items: center;
  
 }
+.content1{
+  width:600px; 
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
 .grid-item {
 
   height: 306px;
@@ -154,6 +159,10 @@ body {
   }
    .content{
     text-align: start !important;
+    justify-content: left;
+  }
+  .content1{
+    width: 258px !important;
   }
   #info{
     font-size: 27px !important;
