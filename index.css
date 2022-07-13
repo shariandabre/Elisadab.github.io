@@ -8,7 +8,6 @@
 body {
   overflow-x: hidden;
   font-family: 'Dosis', sans-serif;
-  background-color: #FFC5E6;
   height: 100vh;
   width: 100vw;
 }
@@ -19,7 +18,7 @@ body {
   left: 70px;
   font-family: 'Suez One', serif;
   font-size: 30px;
-  color: #333333;
+  color: #576F72;
 }
 
 .con {
@@ -28,12 +27,11 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: flex-end;
-  display: none;
   z-index: -99 !important;
 }
 
 .container {
-  background-color: #87f9d4;
+  background-color: #7D9D9C;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -94,7 +92,7 @@ body {
   transition: transform 350ms ease-out;
   transform: rotateX(0) !important;
   width: 100vw;
-  right: 68px;
+  right: 0px;
 }
 
 .work {
@@ -122,7 +120,7 @@ body {
   align-items: center;
   /* Internet Explorer 10+ */
   scrollbar-width: none;
-
+  gap: var(--gap, 2rem);
   justify-content: center;
 
 }
@@ -150,10 +148,22 @@ body {
 }
 
 .project{
-  width: inherit;
-  height: 850px;
-  background-color: #87f9d4;
+  width: 100vw;
+  height: 100vh;
+  background:url("https://www.thespruce.com/thmb/YddABPjyLm7XqfT0TxyRiaDDftU=/3024x2268/smart/filters:no_upscale()/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg");
   z-index: 0;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  
+}
+.project2{
+  width: 100vw;
+  height: 100vh;
+  background:url("https://img.freepik.com/premium-photo/3d-rendering-architecture-model-modern-house-built-different-independent-levels_190619-152.jpg?w=2000");
+  z-index: 0;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  
 }
 .par_con{
   width: 100vw;
@@ -161,7 +171,8 @@ body {
   z-index: 0;
   justify-content: center;
   align-items: center;
-  background-color: #86beb5;
+  background-size: cover !important;
+  background:url("https://cdn.britannica.com/28/116528-050-1CAC6728/Great-Court-Foster-and-Partners-British-Museum-2000.jpg");
 }
 /*----Responsive-------------->>*/
 /* @media (max-width: 35em) and (max-height:820px) {
@@ -181,6 +192,12 @@ body {
   .content1{
     width: 280px !important;
     margin-left: 25px;
+  }
+  .project2{
+    height: 350px;
+  }
+  .project{
+    height: 280px;
   }
   .par_con{
     height: 350px;
@@ -234,7 +251,7 @@ body {
     font-size: 26px;
     left: 25px;
   }
-
+  
 }
 
 @media (min-width: 35em) and (max-width: 1024px) {
@@ -248,6 +265,14 @@ body {
 .content1{
   margin-left: 70px;
 }
+.project{
+  /* background-size: contain !important; */
+  height: 650px;
+}
+.project2{
+  /* background-size: contain !important; */
+  height: 650px;
+}
 }
 
 
@@ -259,7 +284,6 @@ body {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--gap, 2rem);
 }
 
 /*------resize stopper-------*/
