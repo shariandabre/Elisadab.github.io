@@ -197,9 +197,9 @@ body {
     text-align: start !important;
   }
   .content1{
-    width: 280px !important;
+    width: 202px !important;
     margin-left: 25px;
-    margin-top: 25px;
+    margin-top: 30px;
   }
   .project2{
     height: 350px;
@@ -215,13 +215,13 @@ body {
     justify-content: left;
   }
   #info{
-    font-size: 21px !important;
-    word-spacing: 2px;
+    font-size: 19px !important;
+    word-spacing: 5px;
     line-height: 1.8;
   }
   #info1{
     word-spacing: 3px;
-    font-size: 21px !important;
+    font-size: 17px !important;
     line-height: 1.3;
   }
   .container[visible="true"] {
