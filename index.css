@@ -199,6 +199,7 @@ body {
   .content1{
     width: 280px !important;
     margin-left: 25px;
+    margin-top: 25px;
   }
   .project2{
     height: 350px;
@@ -215,11 +216,11 @@ body {
   }
   #info{
     font-size: 21px !important;
-    word-spacing: 3px;
+    word-spacing: 2px;
     line-height: 1.8;
   }
   #info1{
-    word-spacing: 4px;
+    word-spacing: 3px;
     font-size: 21px !important;
     line-height: 1.3;
   }
