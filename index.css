@@ -150,10 +150,10 @@ body {
 .project{
   width: 100vw;
   height: 100vh;
-  background:url("https://www.thespruce.com/thmb/YddABPjyLm7XqfT0TxyRiaDDftU=/3024x2268/smart/filters:no_upscale()/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg");
+  /* background:url("https://www.thespruce.com/thmb/YddABPjyLm7XqfT0TxyRiaDDftU=/3024x2268/smart/filters:no_upscale()/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg"); */
   z-index: 0;
-  background-size: cover !important;
-  background-repeat: no-repeat;
+  /* background-size: cover !important;
+  background-repeat: no-repeat; */
   
 }
 .project2{
