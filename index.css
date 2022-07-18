@@ -18,7 +18,7 @@ body {
   left: 70px;
   font-family: 'Suez One', serif;
   font-size: 30px;
-  color: #E4DCCF;
+  color: #E5E3C9;
 }
 
 .con {
@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  background-color: #7D9D9C;
+  background-color: #E5E3C9;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -150,19 +150,21 @@ body {
 .project{
   width: 100vw;
   height: 100vh;
-  background:url("https://www.thespruce.com/thmb/YddABPjyLm7XqfT0TxyRiaDDftU=/3024x2268/smart/filters:no_upscale()/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg");
   z-index: 0;
+  background-color: #94B49F;
+  /* background:url("https://www.thespruce.com/thmb/YddABPjyLm7XqfT0TxyRiaDDftU=/3024x2268/smart/filters:no_upscale()/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg");
   background-size: cover !important;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   
 }
 .project2{
   width: 100vw;
   height: 100vh;
-  background:url("https://img.freepik.com/premium-photo/3d-rendering-architecture-model-modern-house-built-different-independent-levels_190619-152.jpg?w=2000");
-  z-index: 0;
-  background-size: contain !important;
-  background-repeat: no-repeat;
+  z-index: 0; 
+  background-color: #B4CFB0;
+  /* background:url("https://img.freepik.com/premium-photo/3d-rendering-architecture-model-modern-house-built-different-independent-levels_190619-152.jpg?w=2000");*/
+  /* background-size: contain !important;
+  background-repeat: no-repeat; */
   
 }
 .par_con{
@@ -177,7 +179,7 @@ body {
 .filter{
   width: inherit;
   height: inherit;
-  background-color: #00000063;
+  background-color: #789395;
   justify-content: center;
   align-items: center;
 }
