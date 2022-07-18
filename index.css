@@ -21,8 +21,7 @@ body {
   color: #333333;
 }
 
-.con {
-
+.con{
   width: 100vw;
   height: 100vh;
   align-items: center;
@@ -187,10 +186,7 @@ body {
 
 
 @media (max-width: 35em) {
-  .container {
-    transform: translateX(100%);
-    transition: transform 350ms ease-in-out;
-  }
+
    .content{
     text-align: start !important;
   }
@@ -222,17 +218,22 @@ body {
     font-size: 18px !important;
     line-height: 1.3;
   }
+
+  #li_work {
+    margin-top: 60px;
+  }  
+
+  .container {
+    transform: translateX(100%);
+    transition: transform 350ms ease-in-out;
+  }
   .container[visible="true"] {
     transform: translateX(0%);
     transition: transform 350ms ease-in-out;
   }
 
-  #li_work {
-    margin-top: 60px;
-  }
-
   .menu {
-    position: absolute;
+    position: fixed;
     background: url("https://img.icons8.com/material-outlined/24/000000/menu--v1.png");
     width: 1.6rem;
     aspect-ratio: 1;
@@ -291,6 +292,13 @@ body {
 }
 }
 
+@media (min-width:35em) and (max-width:700px) {
+
+  .content1{
+    width: 430px !important;
+  }
+
+}
 
 /* //-----------? */
 .flex {
