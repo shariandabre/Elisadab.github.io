@@ -219,7 +219,7 @@ body {
     height: 400px;
     background-size: contain !important;
     justify-content: left;
-    background-position: bottom !important;
+    background-position: center !important;
   }
   .filter{
     justify-content: left;
