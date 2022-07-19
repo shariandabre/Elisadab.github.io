@@ -199,7 +199,18 @@ body {
 
 
 @media (max-width: 35em) {
-
+#fot1{
+  right: 2rem !important;
+}
+#fot2{
+  right: 2.2rem !important;
+}
+#fot3{
+  top: 20rem !important;
+}
+#fot4{
+  top: 19.6rem !important;
+}
    .content{
     text-align: start !important;
   }
