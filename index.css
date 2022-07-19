@@ -157,9 +157,10 @@ body {
   
 }
 .imgp{
-  background: url("https://moso-studio.com/wp-content/uploads/2020/07/anable-basin-long-island-city-queens-new-york-001-featured.jpg");
-  height:inherit;
+  background: url("p1.jpeg");
   background-repeat: no-repeat;
+  max-width: 80%;
+  max-height: 70%;
   background-size: contain;
  
 }
@@ -198,9 +199,6 @@ body {
 
 @media (max-width: 35em) {
 
-  .imgp{
-    margin: 0 110px 0 50px;
-  }
    .content{
     text-align: start !important;
   }
