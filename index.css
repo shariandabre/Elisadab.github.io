@@ -180,12 +180,16 @@ body {
   justify-content: center;
   align-items: center;
   background-size: cover !important;
-  background:url("https://cdn.britannica.com/28/116528-050-1CAC6728/Great-Court-Foster-and-Partners-British-Museum-2000.jpg");
+  background-color: #1b1b19 !important;
+  background-repeat: no-repeat !important;
+  /* background-attachment: fixed !important; */
+  background-position: bottom !important;
+  background:url("pot.jpeg"); 
 }
 .filter{
   width: inherit;
   height: inherit;
-  background-color: #789395;
+   background-color: #00000065; 
   justify-content: center;
   align-items: center;
 }
@@ -213,7 +217,9 @@ body {
   }
   .par_con{
     height: 400px;
+    background-size: contain !important;
     justify-content: left;
+    background-position: bottom !important;
   }
   .filter{
     justify-content: left;
@@ -280,6 +286,8 @@ body {
 .par_con{
   text-align:left ;
   justify-content: left;
+  background-size: contain !important;
+  background-position: bottom !important;
   height: 650px;
 }
 .filter{
