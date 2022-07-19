@@ -189,7 +189,7 @@ body {
 .filter{
   width: inherit;
   height: inherit;
-   background-color: #00000065; 
+   /* background-color: #00000065;  */
   justify-content: center;
   align-items: center;
 }
